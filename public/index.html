@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BTUToken WebUI</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="container">
+  <center><h1>BTUToken WebUI</h1></center>
+  <br>
+  <h4> Contract Adress : 0xb515f858156aDd0c96d552909Afd7606e6D29cd9 </h4>
+  <h4><a href="https://ropsten.etherscan.io/address/0xb515f858156add0c96d552909afd7606e6d29cd9"> https://ropsten.etherscan.io/address/0xb515f858156add0c96d552909afd7606e6d29cd9</a></h4>
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Call (reading data)</th>
+          <th>Output</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>assignedTokens</td>
+          <td id="candidate-1"><a href="https://ropsten.etherscan.io/address/0xb515f858156add0c96d552909afd7606e6d29cd9#tokentxns">  see on ropsten</a></td>
+        </tr>
+        <tr>
+          <td>SALE_START_DATE</td>
+          <td id="candidate-2"></td>
+        </tr>
+        <tr>
+          <td>Owner</td>
+          <td id="candidate-3"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p><b> Transaction (writing data) </b></p>
+  <p><a href="#" class="btn btn-primary" id="btnwithdraw">Transfer 100 BTU</a></p>
+  
+
+  
+</body>
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="./index.js"></script>
+</html>
